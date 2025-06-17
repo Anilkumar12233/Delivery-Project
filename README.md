@@ -8,18 +8,18 @@ This folder contains the Docker Compose configuration to run the entire OFDS mic
 
 ## 📦 Services Included
 
-| Service             | Port(s)   | Description                          |
-|---------------------|-----------|--------------------------------------|
-| MySQL               | 3307      | Relational database                  |
-| Zookeeper           | 2181      | Kafka dependency                     |
-| Kafka               | 9092      | Message broker                       |
-| Eureka Server       | 8761      | Service registry                     |
-| Restaurant Service  | 8091      | Spring Boot microservice             |
-| Menu Service        | 8092      | Spring Boot microservice             |
-| Order Service       | 8083      | Spring Boot microservice             |
-| Payment Service     | 8084      | Spring Boot microservice             |
-| API Gateway         | 9090      | Gateway to microservices             |
-| Frontend (React)    | 3000      | Web user interface                   |
+| Service            | Port(s) | Description              |
+| ------------------ | ------- | ------------------------ |
+| MySQL              | 3307    | Relational database      |
+| Zookeeper          | 2181    | Kafka dependency         |
+| Kafka              | 9092    | Message broker           |
+| Eureka Server      | 8761    | Service registry         |
+| Restaurant Service | 8091    | Spring Boot microservice |
+| Menu Service       | 8092    | Spring Boot microservice |
+| Order Service      | 8083    | Spring Boot microservice |
+| Payment Service    | 8084    | Spring Boot microservice |
+| API Gateway        | 9090    | Gateway to microservices |
+| Frontend (React)   | 3000    | Web user interface       |
 
 ---
 
@@ -32,12 +32,13 @@ This folder contains the Docker Compose configuration to run the entire OFDS mic
 
 ---
 
-### 🧑‍💻 Clone the Repository
+### 🧑‍💻 Clone the Repository and Run Docker Compose 
 
-```bash
-git clone https://github.com/YOUR-USERNAME/Delivery-Project.git
+````bash
+git clone https://github.com/Anilkumar12233/Delivery-Project.git
 cd Delivery-Project/OFDS-Deploy
-
-### ⚙️ Start All Services
-```bash
 docker-compose up --build
+
+
+
+
